@@ -1,0 +1,39 @@
+[16-Dec-2020 03:47:48 America/New_York] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/xbulvxgr/public_html/application/modules/admin/views/account-mgmt/upgrade-requests.php on line 111
+[16-Dec-2020 03:48:08 America/New_York] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/xbulvxgr/public_html/application/modules/admin/views/account-mgmt/upgrade-requests.php on line 111
+[16-Dec-2020 03:48:09 America/New_York] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/xbulvxgr/public_html/application/modules/admin/views/account-mgmt/upgrade-requests.php on line 111
+[31-May-2021 04:43:36 America/New_York] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php:1448
+Stack trace:
+#0 /home/xbulvxgr/public_html/system/core/CodeIgniter.php(360): Front->add_product_to_cart()
+#1 /home/xbulvxgr/public_html/index.php(201): require_once('/home/xbulvxgr/...')
+#2 {main}
+  thrown in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php on line 1448
+[31-May-2021 04:44:33 America/New_York] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php:1448
+Stack trace:
+#0 /home/xbulvxgr/public_html/system/core/CodeIgniter.php(360): Front->add_product_to_cart()
+#1 /home/xbulvxgr/public_html/index.php(201): require_once('/home/xbulvxgr/...')
+#2 {main}
+  thrown in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php on line 1448
+[31-May-2021 04:45:18 America/New_York] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php:1450
+Stack trace:
+#0 /home/xbulvxgr/public_html/system/core/CodeIgniter.php(360): Front->add_product_to_cart()
+#1 /home/xbulvxgr/public_html/index.php(201): require_once('/home/xbulvxgr/...')
+#2 {main}
+  thrown in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php on line 1450
+[31-May-2021 04:46:06 America/New_York] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php:1453
+Stack trace:
+#0 /home/xbulvxgr/public_html/system/core/CodeIgniter.php(360): Front->add_product_to_cart()
+#1 /home/xbulvxgr/public_html/index.php(201): require_once('/home/xbulvxgr/...')
+#2 {main}
+  thrown in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php on line 1453
+[31-May-2021 04:59:14 America/New_York] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php:1448
+Stack trace:
+#0 /home/xbulvxgr/public_html/system/core/CodeIgniter.php(360): Front->add_product_to_cart()
+#1 /home/xbulvxgr/public_html/index.php(201): require_once('/home/xbulvxgr/...')
+#2 {main}
+  thrown in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php on line 1448
+[31-May-2021 05:01:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_countable() in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php:1445
+Stack trace:
+#0 /home/xbulvxgr/public_html/system/core/CodeIgniter.php(360): Front->add_product_to_cart()
+#1 /home/xbulvxgr/public_html/index.php(201): require_once('/home/xbulvxgr/...')
+#2 {main}
+  thrown in /home/xbulvxgr/public_html/application/modules/front/controllers/front.php on line 1445

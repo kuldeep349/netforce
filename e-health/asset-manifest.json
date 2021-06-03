@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/e-health/static/css/main.9b02ece7.chunk.css",
+    "main.js": "/e-health/static/js/main.82503cf5.chunk.js",
+    "main.js.map": "/e-health/static/js/main.82503cf5.chunk.js.map",
+    "runtime-main.js": "/e-health/static/js/runtime-main.370b593f.js",
+    "runtime-main.js.map": "/e-health/static/js/runtime-main.370b593f.js.map",
+    "static/js/2.4cec3987.chunk.js": "/e-health/static/js/2.4cec3987.chunk.js",
+    "static/js/2.4cec3987.chunk.js.map": "/e-health/static/js/2.4cec3987.chunk.js.map",
+    "static/js/3.9fba9ec3.chunk.js": "/e-health/static/js/3.9fba9ec3.chunk.js",
+    "static/js/3.9fba9ec3.chunk.js.map": "/e-health/static/js/3.9fba9ec3.chunk.js.map",
+    "index.html": "/e-health/index.html",
+    "static/css/main.9b02ece7.chunk.css.map": "/e-health/static/css/main.9b02ece7.chunk.css.map",
+    "static/js/2.4cec3987.chunk.js.LICENSE.txt": "/e-health/static/js/2.4cec3987.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.370b593f.js",
+    "static/js/2.4cec3987.chunk.js",
+    "static/css/main.9b02ece7.chunk.css",
+    "static/js/main.82503cf5.chunk.js"
+  ]
+}
