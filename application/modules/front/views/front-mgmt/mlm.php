@@ -266,25 +266,29 @@ a.packeg-diamond {
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Our MLM is a simple matrix structure, which will enable you to easily roll over your Networking Account over and over again within a short period. Users are also provided with numerous packages and activities to help you meet your financial goals.</p>
-					<p>Our system is designed to help you attend your financial set goals and targets, because we have structures in place to do that.</p>
-					<p>Our system is very rewarding and interactive to everyone who will join us. We have good features that can help members do business as much as they desire and our payment mode is excellent.</p>
-					<p><strong>Xbulon</strong> has put forth this structure to give a better means of building a good financial status. Joining this Investment Networking business will make you realize every of your financial target in a shortest of time and effort. </p>
-					<p>Our multilevel marketing business is best described as an Investment Network Business. It was designed to bring success and future to everyone that invests in it.</p>
-					<h5>WHY YOU SHOULD BE A PART OF XBULON NETWORK</h5>
-					<p><strong>Xbulon</strong> has the following advantages:</p>
+					<p><strong>Bronze Package</strong></p>
 					<ul>
-						<li>Referral bonus</li>
-						<li>Reorder or Repurchase bonus</li>
-						<li>Retail bonus</li>
-						<li>Matching bonus</li>
-						<li>Health Care bonus</li>
-						<li>You enjoy spillover from your upline</li>
-						<li>Holiday trip incentives</li>
-						<li>The system encourages smart work /displacement to achieve great</li>
-						<li>Car and other vehicles award bonuses</li>
-						<li>House award in a secured district</li>
-						<li>Promo incentives</li>
+						<li>Registration $10</li>
+						<li>Welcome Pack $6</li>
+						<li>Referral Bonus $0.4</li>
+					</ul>
+					<p><strong>Silver Package</strong></p>
+					<ul>
+						<li>Registration $19</li>
+						<li>Welcome Pack $12</li>
+						<li>Referral Bonus $0.8</li>
+					</ul>
+					<p><strong>Gold Package</strong></p>
+					<ul>
+						<li>Registration $36</li>
+						<li>Welcome Pack $18</li>
+						<li>Referral Bonus $1.4</li>
+					</ul>
+					<p><strong>Diamond Package</strong></p>
+					<ul>
+						<li>Registration $70</li>
+						<li>Welcome Pack $24</li>
+						<li>Referral Bonus $2</li>
 					</ul>
 					<h5>HOW IT WORKS</h5>
 					<p>To be a member of this unique Business Network, you are to subscribe into any of these Membership class with just a onetime registration Once you complete the registration process, you’ll receive our <strong><i>Organic Product</i></strong> of your choice as a welcome pack and a notification sms or email of your successful registration.</p>

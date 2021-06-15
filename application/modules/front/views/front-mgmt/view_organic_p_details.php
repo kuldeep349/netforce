@@ -425,28 +425,98 @@
 						?>
 
 						<div class="quantity-btn-wrap">
+						<style>
+						
+						</style>
+							
 							<?php
+							echo'<a href="'.base_url('join-us').'" class="crumina-button button--primary button--with-icon button--icon-right button--m">REGISTER to buy on discount</a>&nbsp;';
 							if($product['qty'] > 0){
 								if(empty($cart_product)){
+									
 									echo'<input type="hidden" id="quantity" value="1">';
 									echo'<button class="crumina-button addToCart button--primary button--with-icon button--icon-right button--m"
 									data-product_id="'.$product['id'].'"
 									>
 										Add to Cart
 									</Button>';
+
 								}else{
-									echo'<input type="number" id="quantity" value="'.$cart_product['quantity'].'">';
-									echo'<button class="crumina-button addToCart button--primary button--with-icon button--icon-right button--m"
-									data-product_id="'.$product['id'].'"
-									>
-										Update Cart
-									</Button>';
+									echo'<a href="'.base_url('front/cart').'" class="crumina-button button--primary button--with-icon button--icon-right button--m">PROCEED</a>';
+
+									// echo'<br><div class="cartButtons" data-product_id="'.$product['id'].'" data-product_type="organic">';
+									// echo'<img class="loader" src="'.base_url('product_images/loader.gif').'">';
+									// echo'<button class="plus-btn plusBtn" type="button">+</button>';
+									// echo'<input type="number" class="cartQuanity" value="'.$cart_product['quantity'].'">';
+									// echo'<button class="minus-btn minusBtn" type="button">-</button>';
+									// echo'</div>';
 								}
 								
 							}else{
 								echo'This Product is not in Stock';
 							}
 							?>
+							<script>
+							var url = "<?php echo base_url('front/add_product_to_cart/'); ?>";
+							$(document).on('click','.plusBtn',function(){
+								var cart_quantity = parseInt($(this).parent('.cartButtons').find('.cartQuanity').val()) + 1;
+								var t =  $(this);
+								let formData = {
+									product_id : $(this).parent('.cartButtons').data('product_id'),
+									product_type : $(this).parent('.cartButtons').data('product_type'),
+									quantity : cart_quantity
+								}
+								$(this).parent('.cartButtons').find('.loader').css('display','block');
+								$.post(url,formData,function(res){
+									if(res.success == 1){
+										t.parent('.cartButtons').find('.cartQuanity').val(cart_quantity)
+										t.parent('.cartButtons').find('.loader').css('display','none');
+									}else{
+										alert(res.message)
+										t.parent('.cartButtons').find('.loader').css('display','none');
+									}
+								},'json');
+							})
+							$(document).on('click','.minusBtn',function(){
+								var cart_quantity = parseInt($(this).parent('.cartButtons').find('.cartQuanity').val()) - 1;
+								var t =  $(this);
+								if(cart_quantity >= 0){
+									let formData = {
+										product_id : $(this).parent('.cartButtons').data('product_id'),
+										product_type : $(this).parent('.cartButtons').data('product_type'),
+										quantity : cart_quantity
+									}
+									$(this).parent('.cartButtons').find('.loader').css('display','block');
+									$.post(url,formData,function(res){
+										if(res.success == 1){
+										t.parent('.cartButtons').find('.cartQuanity').val(cart_quantity)
+										t.parent('.cartButtons').find('.loader').css('display','none');
+									}else{
+										alert(res.message)
+										t.parent('.cartButtons').find('.loader').css('display','none');
+									}
+									},'json');
+								}
+							})
+							</script>
+							<script>
+							$(document).on('click','.addToCart',function(){
+								var product_id = $(this).data('product_id');
+								var url = "<?php echo base_url('front/add_product_to_cart/'); ?>";
+								let formData = {
+									product_id : product_id,
+									product_type : 'organic',
+									quantity : $('#quantity').val()
+								}
+								console.log('url ' ,url)
+								$.post(url,formData,function(res){
+									console.log(res)
+									alert(res.message);
+									var url = '<?php echo base_url('front/cart');?>';
+									window.location.href = url;
+								},'json');
+							})
+							</script>
 						</div>
 					</div>
 				</div>
@@ -1058,22 +1128,6 @@
 <?php $this->load->view('common/footer'); ?>
 <!-- /FOOTER -->
 <?php $this->load->view('common/footer-script'); ?>
-<script>
-$(document).on('click','.addToCart',function(){
-	var product_id = $(this).data('product_id');
-	var url = "<?php echo base_url('front/add_product_to_cart/'); ?>";
-	let formData = {
-		product_id : product_id,
-		product_type : 'organic',
-		quantity : $('#quantity').val()
-	}
-	console.log('url ' ,url)
-	$.post(url,formData,function(res){
-		console.log(res)
-		alert(res.message);
-		// location.reload();
-	},'json');
-})
-</script>
+
 </body>
 </html>

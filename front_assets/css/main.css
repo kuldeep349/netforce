@@ -21890,7 +21890,7 @@ button {
 
 
 
-  position: absolute;
+  position: unset;
 
 
 
@@ -21922,7 +21922,7 @@ button {
 
 
 
-  background-color: var(--primary-accent-color);
+  /* background-color: var(--primary-accent-color); */
 
 
 
@@ -34131,4 +34131,30 @@ ul.doctor-time {
 
     content: "\E918";
 
+}
+
+.plus-btn{
+  border: 1px solid;
+  padding: 5px 5px 5px 5px;
+  background-color:#f1f2ec;
+  min-height: 60px;
+  font-size: 1.3em;
+}
+.minus-btn{
+  border: 1px solid;
+  padding: 5px 10px 5px 10px;
+  background-color:#f1f2ec;
+  min-height: 60px;
+  font-size: 1.3em;
+}
+.cartQuanity{
+  /* width:20%; */
+  background-color:#f1f2ec;
+  border-radius: 0px;
+}
+.loader{
+  display:none;
+  z-index: 9999;
+  position: absolute;
+  width: 100%;
 }
