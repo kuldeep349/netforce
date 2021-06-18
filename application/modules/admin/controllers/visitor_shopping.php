@@ -81,4 +81,9 @@ class Visitor_shopping extends Common_Controller
             $response['orders'] = $this->Main_model->get_limit_records('tbl_visitor_orders', $where, '*', $config['per_page'], $segment);
             _adminLayout("visitor_shopping/all_orders",$response);
     }
+    public function orderDetails($orderId = ''){
+        $response['order'] = $this->Main_model->get_single_record('tbl_visitor_orders', ['order_id' => $orderId], '*');
+        $response['order_items'] = $this->Main_model->get_records('tbl_visitor_order_details', ['order_id' => $orderId], '*');
+        _adminLayout("visitor_shopping/order_details",$response);
+    }
 }//end class

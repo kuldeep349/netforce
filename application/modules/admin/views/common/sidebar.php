@@ -404,7 +404,7 @@
                <li <?php echo ($controllerName=="visitor_shopping")?'class=active':'';?>>
                    <a href="#"><i class="icon-hammer-wrench"></i> <span>Visitors Shopping</span></a>
                    <ul>
-                       <li <?php echo ($controllerName=="visitor_shopping" && $actionName=='visitor_orders')?'class=active':'';?>><a href="<?php echo site_url();?>admin/visitor_shopping/visitor_orders"><i class="icon-wrench3"></i> <span>Pending Orders</span></a></li>
+                       <li <?php echo ($controllerName=="visitor_shopping" && $actionName=='all_orders')?'class=active':'';?>><a href="<?php echo site_url();?>admin/visitor_shopping/all_orders"><i class="icon-wrench3"></i> <span>All Orders</span></a></li>
                     </ul>
                </li>
                

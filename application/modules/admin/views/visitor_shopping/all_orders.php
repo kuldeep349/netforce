@@ -31,7 +31,7 @@
       <?php   
       }
       ?>
-      <div class="panel panel-flat">
+      <div class="panel panel-flat" style="display:none;">
          <div class="panel-heading">
             <h5 class="panel-title">All Orders</h5>
          </div>
@@ -110,7 +110,7 @@
                                 <td><?php echo $order['email'];?></td>
                                 <td><?php echo $order['phone'];?></td>
                                 <td><?php echo $order['status'] == 0 ? 'Pending' : 'Approved';?></td>
-                                <td><a href="<?php echo base_url('Admin/Package/CoupanView/'.$order['id'])?>" class="btn btn-success">View</a></td>
+                                <td><a href="<?php echo base_url('admin/visitor_shopping/orderDetails/'.$order['order_id'])?>" class="btn btn-success">View</a></td>
                             </tr>
                             <?php
                             $i++;
