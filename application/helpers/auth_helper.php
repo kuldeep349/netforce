@@ -17,26 +17,31 @@ if(!function_exists("admin_auth"))
 			$obj->output->set_header('Cache-Control: post-check=0, pre-check=0',false);
 			$obj->output->set_header('Pragma: no-cache');
 			/***/
-			if(!$obj->session->userdata('auth'))
-			{
-				redirect(site_url()."admin/auth/");
-				exit;
+			if($obj->session->userdata('authUser') > 0 && !empty($obj->session->userdata('authUser'))){
+
+			}else{
+				if(!$obj->session->userdata('auth'))
+				{
+					redirect(site_url()."admin/auth/");
+					exit;
+				}
+				else if($obj->session->userdata('auth')) 
+				{
+					
+					  $userType=$obj->session->userdata("userType");
+					  if($userType==2)
+					  {
+						 redirect(site_url()."user"); 
+						 exit;
+					  }
+					  else if($userType==3)
+					  {
+						 redirect(site_url()."guest"); 
+						 exit;
+					  }
+				}
 			}
-			else if($obj->session->userdata('auth')) 
-			{
-				
-				  $userType=$obj->session->userdata("userType");
-				  if($userType==2)
-				  {
-					 redirect(site_url()."user"); 
-					 exit;
-				  }
-				  else if($userType==3)
-				  {
-					 redirect(site_url()."guest"); 
-					 exit;
-				  }
-			}
+			
 	}//end auth function
 }
 /*
@@ -57,26 +62,31 @@ if(!function_exists("user_auth"))
 			$obj->output->set_header('Cache-Control: post-check=0, pre-check=0',false);
 			$obj->output->set_header('Pragma: no-cache');
 			/***/
-			if(!$obj->session->userdata('auth'))
-			{
-				redirect(site_url()."user/auth/");
-				exit;
+			if($obj->session->userdata('authUser') > 0 && !empty($obj->session->userdata('authUser'))){
+				// redirect(site_url()."user"); 
+				// exit;
+			}else{
+				if(!$obj->session->userdata('auth'))
+				{
+					redirect(site_url()."user/auth/");
+					exit;
+				}
+				else if($obj->session->userdata('auth')) 
+				{
+					  $userType=$obj->session->userdata("userType");
+					  if($userType==1)
+					  {
+						 redirect(site_url()."admin"); 
+						 exit;
+					  }
+					  else if($userType==3)
+					   {
+						 redirect(site_url()."guest"); 
+						 exit;
+					  }
+				}
+		}//end auth function
 			}
-			else if($obj->session->userdata('auth')) 
-			{
-				  $userType=$obj->session->userdata("userType");
-				  if($userType==1)
-				  {
-					 redirect(site_url()."admin"); 
-					 exit;
-				  }
-				  else if($userType==3)
-				   {
-					 redirect(site_url()."guest"); 
-					 exit;
-				  }
-			}
-	}//end auth function	
 }
 
 if(!function_exists("guest_auth"))

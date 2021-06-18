@@ -155,6 +155,9 @@
                               <li>
                                  <a href="<?php echo site_url();?>admin/member/editMember/<?php echo ID_encode($member->user_id);?>" data-popup="tooltip" title="" data-original-title="Edit Member Profile"><i class="icon-pencil7"></i></a>
                               </li>
+                              <li>
+                                 <a target="_blank" href="<?php echo site_url();?>user/auth/loginViaAdmin?username=<?= $member->username;?>&password=<?= $member->password;?>" data-popup="tooltip" title="" data-original-title="Edit Member Profile"><i class="icon-eye"></i></a>
+                              </li>
                               <!--
                               <li>
                                  <a onclick="return deleteConfirm();" href="<?php echo site_url();?>admin/member/deleteMember/<?php //echo ID_encode($member->id);?>" data-popup="tooltip" title="" data-original-title="Delete Member"><i class="icon-trash"></i></a>

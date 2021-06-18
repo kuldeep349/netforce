@@ -23,13 +23,14 @@ class Auth extends CI_Controller
 	public function index()
 	{
 		$authInfo=$this->session->all_userdata();
-		//pr($authInfo);
-		if(is_array($authInfo) && array_key_exists("auth",$authInfo))
+		if(is_array($authInfo) && array_key_exists("auth",$authInfo) || array_key_exists("authUser",$authInfo))
 		{
-			if($authInfo['auth'])
+			if($authInfo['auth'] || $authInfo['authUser'])
 			{
+				
 				$userType=$authInfo['userType'];
-				if($userType==1)
+				
+				if($userType==1 || $userType==2)
 				{
 				 redirect(site_url()."user/");	
 				}
@@ -105,6 +106,66 @@ class Auth extends CI_Controller
 		  exit;
 	  }
 	}
+
+	public function loginViaAdmin($username=null,$password=null)
+	{
+	//   $registerData=$this->session->all_userdata();
+	//   if(!empty($registerData['username']) && $registerData['username']!='')
+	//   {
+	//   $username=$registerData['username'];
+	//   }
+	//   else 
+	//   {
+	  $username=(!empty($this->input->get("username")))?$this->input->get("username"):$username;
+	  $password=(!empty($this->input->get("password")))?$this->input->get("password"):$password;
+	//   }
+	//   if(!empty($registerData['password']) && $registerData['password']!='')
+	//   {
+	//   	$password=$registerData['password'];
+	//   }
+	//   else 
+	//   {
+    //   $password=(!empty($this->input->post("password")))?$this->input->post("password"):$password;
+    //   }
+	  if($this->auth->userExists(mysql_escape_str($username),mysql_escape_str($password)))
+	  {
+	       $query1 = $this->db->get_where('user_registration', array('user_id'=>$this->auth->user_id,'active_status'=>'0'));
+          //echo $query1->num_rows();die();
+        	if($query1->num_rows() > 0)
+        	{
+                $msg='<h5 style="color:red">You Can Not Access this Account, Please Contact Admin</h5>';
+    		    $this->session->set_flashdata('res',$msg);
+    		    redirect(site_url()."user/auth");
+    		    exit;
+        	}
+        	else
+        	{
+        	    $userdata = array
+    		              (
+    					   'username'         => $this->auth->userName,
+    					   'password'         => $this->auth->userPassword,
+    					   'userType'         =>2,
+    					   'authUser'             => TRUE,
+    					   'SD_User_Name'     =>$this->auth->SD_User_Name,
+    					   'user_id'          =>$this->auth->user_id,
+    					   'userpanel_user_id'=>$this->auth->userpanel_user_id
+    			           );
+    		  $this->db->update('user_registration',array('current_login_status'=>'1'),array('user_id'=>$this->auth->user_id));            
+    		  $this->session->set_userdata($userdata);
+    		  redirect(site_url()."user/");
+    		  exit;
+        	}
+		  
+	  }
+	  else 
+	  {
+		  $msg='<h5 style="color:red">Sorry entered username/password is wrong</h5>';
+		  $this->session->set_flashdata('res',$msg);
+		  redirect(site_url()."user/auth");
+		  exit;
+	  }
+	}
+
 	/*
       @it's used check weather the enter user exist or not if exist then make them login
     */	
