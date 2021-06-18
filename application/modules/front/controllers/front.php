@@ -1451,7 +1451,9 @@ class Front extends CI_Controller
 		}else{
 			$cart[$product_key] = $cart_itmes;
 		}
-
+		if($cart_itmes['quantity'] == 0){
+			unset($cart[$product_key]);
+		}
 		$res['product_key'] = $product_key;
 		$res['cart'] = $cart;
 		$this->session->set_userdata('cart',$cart);
@@ -1473,9 +1475,38 @@ class Front extends CI_Controller
 		} 
 		echo json_encode($cart);
 	}
+	public function cart(){
+		$data=array();
+		$cart = !empty ($this->session->userdata['cart']) ? $this->session->userdata['cart'] : [] ;
+		if(!empty($cart)){
+			foreach($cart as $k => $product){
+				$cart[$k]=$this->db->select('sku,title,id as product_id,old_price,product_image')->from('eshop_organic_products')->where(array('status'=>'1','id' => $product['product_id']))->get()->row_array();
+				$cart[$k]['quantity'] = $product['quantity'];
+			}
+		} 
+		$data['cart'] = $cart;
+
+		$data['shipping'] = $this->session->userdata['shipping'];
+		$data['countries']=$this->db->select('*')->from('countries')->where(['shipping_status' => 1])->get()->result_array();
+		 _frontLayout("front-mgmt/cart_details",$data);
+	}
+	public function checkout(){
+		$data=array();
+		$cart = !empty ($this->session->userdata['cart']) ? $this->session->userdata['cart'] : [] ;
+		if(!empty($cart)){
+			foreach($cart as $k => $product){
+				$cart[$k]=$this->db->select('sku,title,id as product_id,old_price,product_image')->from('eshop_organic_products')->where(array('status'=>'1','id' => $product['product_id']))->get()->row_array();
+				$cart[$k]['quantity'] = $product['quantity'];
+			}
+		} 
+		$data['cart'] = $cart;
+		$data['shipping'] = $this->session->userdata['shipping'];
+	  _frontLayout("front-mgmt/checkout",$data);
+	}
 	public function clear_session(){
 		$this->session->unset_userdata('cart');
 	}
+	
 	public function howItWorks()
 	{
 	  $data=array();

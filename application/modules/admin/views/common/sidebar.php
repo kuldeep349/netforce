@@ -400,6 +400,13 @@
                        <li <?php echo ($controllerName=="setting" && $actionName=='dateFormatManagement')?'class=active':'';?>><a href="<?php echo site_url();?>admin/setting/dateFormatManagement"><i class="icon-clipboard5"></i> <span>Date Format Setting</span></a></li>
                     </ul>
                </li>
+               <!----Added by kush for manage visitor orders at 14-6-21----->
+               <li <?php echo ($controllerName=="visitor_shopping")?'class=active':'';?>>
+                   <a href="#"><i class="icon-hammer-wrench"></i> <span>Visitors Shopping</span></a>
+                   <ul>
+                       <li <?php echo ($controllerName=="visitor_shopping" && $actionName=='all_orders')?'class=active':'';?>><a href="<?php echo site_url();?>admin/visitor_shopping/all_orders"><i class="icon-wrench3"></i> <span>All Orders</span></a></li>
+                    </ul>
+               </li>
                
             </ul>
 			</ul>

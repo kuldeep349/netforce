@@ -105,4 +105,32 @@ if(!function_exists("cart_products"))
 		return $cart;
 	}	
 }
+
+if(!function_exists("shipping_charges_list"))
+{
+	function shipping_charges_list()
+	{
+		$countries = [
+			1 => ['country' => 'Nigeria' , 'charges' => '5'],
+			2 => ['country' => 'India' , 'charges' => '15'],
+			3 => ['country' => 'Singapore' , 'charges' => '25'],
+		];
+		return $countries;
+	}	
+}
+
+if(!function_exists("country_shipping_charges"))
+{
+	function country_shipping_charges($id)
+	{
+		$countries = [
+			1 => ['country' => 'Nigeria' , 'charges' => '5'],
+			2 => ['country' => 'India' , 'charges' => '15'],
+			3 => ['country' => 'Singapore' , 'charges' => '25'],
+		];
+		return $countries[$id];
+	}	
+}
+
+
 ?>
