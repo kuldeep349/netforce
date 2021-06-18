@@ -317,7 +317,7 @@ body {font-family: "Lato", sans-serif;}
                                     </p>
                                 <input type="file" name="bank_wire_proof_image" class="form-control"/>
                                 <input type="radio" name="payment_method" value="bank_wire" checked/>Bank Wire
-                                <!-- <input type="radio" name="payment_method" value="debit_card"/>Debit Card -->
+                                <input type="radio" name="payment_method" value="debit_card"/>Debit Card
                                 <input type="submit" class="btn-success"> 
                                 <!-- <input type="submit" name="payment_method" value="bank_wire" class="btn-dark" value="Pay Via Bank Wire">  -->
                                 <!-- <input type="submit" name="payment_method" class="btn-success" value="Debit Card">  -->

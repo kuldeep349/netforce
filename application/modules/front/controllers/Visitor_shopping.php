@@ -80,12 +80,12 @@ class Visitor_shopping extends CI_Controller
 				$email = $this->input->post('email');
 				$payment_method = $this->input->post('payment_method');
 				$cart = !empty ($this->session->userdata['cart']) ? $this->session->userdata['cart'] : [] ;
-				if(!empty($cart)){
-					foreach($cart as $k => $product){
-						$cart[$k]=$this->db->select('sku,title,id as product_id,old_price,product_image')->from('eshop_organic_products')->where(array('status'=>'1','id' => $product['product_id']))->get()->row_array();
-						$cart[$k]['quantity'] = $product['quantity'];
-					}
-				} 
+					if(!empty($cart)){
+						foreach($cart as $k => $product){
+							$cart[$k]=$this->db->select('sku,title,id as product_id,old_price,product_image')->from('eshop_organic_products')->where(array('status'=>'1','id' => $product['product_id']))->get()->row_array();
+							$cart[$k]['quantity'] = $product['quantity'];
+						}
+					} 
 					$shipping = $this->session->userdata['shipping'];
 					if($payment_method == 'bank_wire'){
 						$image_proof = $_FILES['bank_wire_proof_image'];
@@ -111,6 +111,7 @@ class Visitor_shopping extends CI_Controller
 									'shipping_country'=>$shipping['country_charges'],
 									'shipping_charges'=>$shipping['shipping_charges'],
 									'status'=>0,
+									'amount'=>0,
 								);
 								$this->db->insert('tbl_visitor_orders',$paymentArr);
 								if(!empty($cart)){
@@ -131,6 +132,10 @@ class Visitor_shopping extends CI_Controller
 							}else{
 								$response['message'] = 'Please Choose a valid Proof';
 							}
+						}else{
+							$response['message'] = 'Proof is not valid';
+						}
+					
 					}elseif($payment_method == 'debit_card'){
 						$paymentArr = array(
 							'order_id'=>$this->generateUniqueVisitorOrderId(),
@@ -149,6 +154,7 @@ class Visitor_shopping extends CI_Controller
 							'shipping_country'=>$shipping['country_charges'],
 							'shipping_charges'=>$shipping['shipping_charges'],
 							'status'=>0,
+							'amount'=>0,
 						);
 						$this->db->insert('tbl_visitor_orders',$paymentArr);
 						if(!empty($cart)){
@@ -164,11 +170,8 @@ class Visitor_shopping extends CI_Controller
 							}
 						} 
 					}else{
-						$response['message'] = 'Invalid Bank Wire Proof';
+						$response['message'] = 'Only Bank Wire Method Allowed yet';
 					}
-				}else{
-					$response['message'] = 'Only Bank Wire Method Allowed yet';
-				}
 			}else{
 				$response['message'] = validation_errors();
 			}
