@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="<?php echo base_url();?>front_assets/css/main.css">
     <!-- theme font -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>front_assets/css/theme-font.min.css">
-    <title>Xbulon</title>
+    <title>NetForce</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url();?>front_assets/img/theme-content/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url();?>front_assets/img/theme-content/favicon/favicon-32x32.png">

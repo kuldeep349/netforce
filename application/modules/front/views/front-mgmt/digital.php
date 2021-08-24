@@ -226,8 +226,8 @@
         <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="heading">Xbulon Digital Money</h2>
-            <p>In Xbulon digital money we transact every major currency in the global market on this platform. We create this platform to bridge the huddles many people face whenever they want to make their foreign transaction. We put into consideration the financial policies of some countries that make it very difficult for people to freely transactand we provide soft landing for them still not violating the financial policies.</p>
+            <h2 class="heading">NetForce Digital Money</h2>
+            <p>In NetForce digital money we transact every major currency in the global market on this platform. We create this platform to bridge the huddles many people face whenever they want to make their foreign transaction. We put into consideration the financial policies of some countries that make it very difficult for people to freely transactand we provide soft landing for them still not violating the financial policies.</p>
             <p>We buy/sell digital currencies, crypto currency and all forms of payment gateways, and our rate is very normal. We also give our members the opportunity to make good commission per transaction by bringing in clients that will buy/sell their digital currencies.</p>
             <h3>
                 How to do

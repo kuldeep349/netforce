@@ -236,7 +236,7 @@ a.packeg-diamond {
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">XBULON Old News coming soon</h1>
+				<h1 class="page-title text-white">NetForce Old News coming soon</h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">

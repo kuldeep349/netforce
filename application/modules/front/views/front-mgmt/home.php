@@ -293,11 +293,11 @@
 
 
 
-                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of Xbulon</h2>
+                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of NetForce</h2>
 
 
 
-                                    <p class="slider-content-text" data-swiper-parallax="-200">Xbulon is your reliable partner and a sure hub for all important need of everyone. In Xbulon we give the platform to transact and also get quick help whenever and however you need it.</p>
+                                    <p class="slider-content-text" data-swiper-parallax="-200">NetForce is your reliable partner and a sure hub for all important need of everyone. In NetForce we give the platform to transact and also get quick help whenever and however you need it.</p>
 
 
 
@@ -347,11 +347,11 @@
 
 
 
-                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of Xbulon</h2>
+                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of NetForce</h2>
 
 
 
-                                    <p class="slider-content-text" data-swiper-parallax="-200">Xbulon is your reliable partner and a sure hub for all important need of everyone. In Xbulon we give the platform to transact and also get quick help whenever and however you need it.</p>
+                                    <p class="slider-content-text" data-swiper-parallax="-200">NetForce is your reliable partner and a sure hub for all important need of everyone. In NetForce we give the platform to transact and also get quick help whenever and however you need it.</p>
 
 
 
@@ -401,11 +401,11 @@
 
 
 
-                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of Xbulon</h2>
+                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of NetForce</h2>
 
 
 
-                                    <p class="slider-content-text" data-swiper-parallax="-200">Xbulon is your reliable partner and a sure hub for all important need of everyone. In Xbulon we give the platform to transact and also get quick help whenever and however you need it.</p>
+                                    <p class="slider-content-text" data-swiper-parallax="-200">NetForce is your reliable partner and a sure hub for all important need of everyone. In NetForce we give the platform to transact and also get quick help whenever and however you need it.</p>
 
 
 
@@ -455,11 +455,11 @@
 
 
 
-                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of Xbulon</h2>
+                                    <h2 class="h1 slider-content-title" data-swiper-parallax="-100"> You are welcome to the official website of NetForce</h2>
 
 
 
-                                    <p class="slider-content-text" data-swiper-parallax="-200">Xbulon is your reliable partner and a sure hub for all important need of everyone. In Xbulon we give the platform to transact and also get quick help whenever and however you need it.</p>
+                                    <p class="slider-content-text" data-swiper-parallax="-200">NetForce is your reliable partner and a sure hub for all important need of everyone. In NetForce we give the platform to transact and also get quick help whenever and however you need it.</p>
 
 
 
@@ -531,7 +531,7 @@
 
                     <div class="slides-item bg-red-themes">
 
-                        <div class="h5 slides-item-title">Xbulon Organics</div>
+                        <div class="h5 slides-item-title">NetForce Organics</div>
 
                         <div class="slides-item-text"></div>
 
@@ -541,7 +541,7 @@
 
                     <div class="slides-item bg-yellow-themes">
 
-                        <div class="h5 slides-item-title">Xbulon Community</div>
+                        <div class="h5 slides-item-title">NetForce Community</div>
 
                         <img loading="lazy" class="slides-item-icon" src="<?php echo base_url();?>front_assets/img/demo-content/icons/icon37.png"  alt="icon">
 
@@ -573,21 +573,21 @@
             <div class="row">
 							<div class="col-md-12">
 
-            <h2 class="heading text-center">WELCOME TO XBULON </h2>
+            <h2 class="heading text-center">WELCOME TO NetForce </h2>
 
             <p class="text-center">
 
-							<b>Xbulon</b>  is your reliable partner and a sure hub for all important need of everyone. In Xbulon we give you the platform to transact and also get quick help whenever and however you need it.
+							<b>NetForce</b>  is your reliable partner and a sure hub for all important need of everyone. In NetForce we give you the platform to transact and also get quick help whenever and however you need it.
     </p>
 
-  <p class="text-center"><a href="https://xbulon.com/about-us" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
+  <p class="text-center"><a href="https://NetForce.com/about-us" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
             <!-- <p class="text-center">For all our businesses and services, we have trusted hands and specialists that are ever ready and diligent to give you the best services/attention that will meet your need. So when you need someone to talk to and confide with, we are here for you. You are welcome to win with us!
 </p>
   <p class="text-center">Our system is designed to help you achieve your set targets and this is because we have structures in place to enable you doing that.
 </p>
   <p class="text-center">Our system is very rewarding and interactive to everyone who will join us. We have good features that can help members do business as much as they desire and our payment mode is excellent.
 </p>
-  <p class="text-center">In <b>Xbulon</b> we put forth these structures to give our social community a better means of building a good business and financial status. Joining this community will make one realize every of one’s business and financial target in a shortest of time and effort.
+  <p class="text-center">In <b>NetForce</b> we put forth these structures to give our social community a better means of building a good business and financial status. Joining this community will make one realize every of one’s business and financial target in a shortest of time and effort.
 </p> -->
 <br><br><br><br>
         </div>
@@ -604,10 +604,10 @@
 
                         <div class="info-box-content">
 
-                                <h5 class="info-box-title font-weight-normal">Xbulon Organics</h5>
+                                <h5 class="info-box-title font-weight-normal">NetForce Organics</h5>
 
                             <p class="info-box-text text-justify">We are focused on producing the best of organic products using raw materials sourced from nature to nurture your health and improve everyday living.
-</p>											<p class="text-center"><a href="https://xbulon.com/organic-products" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
+</p>											<p class="text-center"><a href="https://NetForce.com/organic-products" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
 
                         </div>
 
@@ -630,7 +630,7 @@
                             <h5 class="info-box-title font-weight-normal">Properties</h5>
 
                             <p class="info-box-text text-justify">This platform will financially empower members to transact and earn a commission up to 20% by referring someone to buy or sell properties displayed in this website.</p>
-														<p class="text-center"><a href="https://xbulon.com/property" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
+														<p class="text-center"><a href="https://NetForce.com/property" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
 
                         </div>
 
@@ -650,10 +650,10 @@
 
                         <div class="info-box-content">
 
-                            <h5 class="info-box-title font-weight-normal">Xbulon Gas & Steam Turbine</h5>
+                            <h5 class="info-box-title font-weight-normal">NetForce Gas & Steam Turbine</h5>
 
                             <p class="info-box-text text-justify">We have a Team of highly skilled Engineers who are experts in the building and maintenance of gas and steam turbine of any capacity.</p>
-														<p class="text-center"><a href="https://xbulon.com/property" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
+														<p class="text-center"><a href="https://NetForce.com/property" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
 
                         </div>
 
@@ -675,12 +675,12 @@
 
                         <div class="info-box-content">
 
-                            <h5 class="info-box-title font-weight-normal">Xbulon E-Shopping</h5>
+                            <h5 class="info-box-title font-weight-normal">NetForce E-Shopping</h5>
 
-                            <p class="info-box-text text-justify">Xbulon online mart is where you can get every of your necessities just by a click and get the goods delivered to you on time.
+                            <p class="info-box-text text-justify">NetForce online mart is where you can get every of your necessities just by a click and get the goods delivered to you on time.
 </p>
 
-<p class="text-center"><a href="https://xbulon.com/ecommerce" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
+<p class="text-center"><a href="https://NetForce.com/ecommerce" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
 
 
                         </div>
@@ -705,7 +705,7 @@
                             <p class="info-box-text text-justify">In this platform we give you real value for your money and deliver on time, eliminating waste managing your budget effectively.
 </p>
 
-<p class="text-center"><a href="https://xbulon.com/project-development" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
+<p class="text-center"><a href="https://NetForce.com/project-development" class="crumina-button button--dark button--bordered button--l">LEARN MORE</a></p>
                         </div>
 
                     </div>
@@ -725,7 +725,7 @@
 
                         <div class="info-box-content">
 
-                            <h5 class="info-box-title font-weight-normal">Xbulon Logistics
+                            <h5 class="info-box-title font-weight-normal">NetForce Logistics
 </h5>
 
                             <p class="info-box-text text-justify">Products purchased from this platform are properly cared for and we ensure that it will all be delivered to the destination on time and in good condition.  </p>
@@ -1421,7 +1421,7 @@
 
                         <div class="case-item-content">
 
-                            <a href="12_project_details_ver_01.html" class="h6 case-item-title">Xbulon Tea</a>
+                            <a href="12_project_details_ver_01.html" class="h6 case-item-title">NetForce Tea</a>
 
                             <div class="case-item-cat">
 

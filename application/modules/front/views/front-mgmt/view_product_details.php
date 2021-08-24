@@ -299,7 +299,7 @@
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">Xbulon E-Shopping</h1>
+				<h1 class="page-title text-white">NetForce E-Shopping</h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">

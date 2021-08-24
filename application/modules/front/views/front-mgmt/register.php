@@ -280,7 +280,7 @@
                                  }
                                  ?>
                                  <i></i>
-                                 I have Read the <a href="<?php echo site_url();?>terms_and_condition">Terms &amp; Condition</a> and  <a href="<?php echo site_url();?>privacy-policy">User Agreement </a>of Xbulon
+                                 I have Read the <a href="<?php echo site_url();?>terms_and_condition">Terms &amp; Condition</a> and  <a href="<?php echo site_url();?>privacy-policy">User Agreement </a>of NetForce
                                  <span class="control__indicator"></span></label>
                                  <span id="valid_term_cond"></span>
                                  <div class="checkout-proceed">

@@ -196,7 +196,7 @@
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">Xbulon Gas & Steam Turbine</h1>
+				<h1 class="page-title text-white">NetForce Gas & Steam Turbine</h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">
@@ -210,7 +210,7 @@
 						<!-- BREADCRUMBS ITEM -->
 						<li class="breadcrumbs-item trail-end">
 							<span class="crumina-icon">»</span>
-							<span>Xbulon Gas & Steam Turbine</span>
+							<span>NetForce Gas & Steam Turbine</span>
 						</li>
 						<!-- /BREADCRUMBS ITEM -->
 					</ul>
@@ -226,7 +226,7 @@
         <div class="container">
    <div class="row">
         <div class="col-md-12">
-            <h2 class="heading">Xbulon Gas & Steam Turbine</h2>
+            <h2 class="heading">NetForce Gas & Steam Turbine</h2>
             <p>We have a Team of highly skilled Engineers how are experts in the building and maintenance of gas and steam turbine of any capacity.</p>
             <p>We deliver a high performance gas and steam turbine of any capacity anywhere anytime</p>
             <h3>Nature:</h3>

@@ -64,7 +64,7 @@ body {font-family: "Lato", sans-serif;}
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">Xbulon Cart Details</h1>
+				<h1 class="page-title text-white">NetForce Cart Details</h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">
@@ -311,7 +311,7 @@ body {font-family: "Lato", sans-serif;}
                             <div class="col-md-6">
                                 <h4>Bank Details</h4>
                                     <p>
-                                        Account Name: Xbulon Network<br>
+                                        Account Name: NetForce Network<br>
                                         Bank: Zenith Bank<br>
                                         Account Number: 1017541942<br>
                                     </p>

@@ -197,7 +197,7 @@
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">Xbulon Organics</h1>
+				<h1 class="page-title text-white">NetForce Organics</h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">
@@ -211,7 +211,7 @@
 						<!-- BREADCRUMBS ITEM -->
 						<li class="breadcrumbs-item trail-end">
 							<span class="crumina-icon">»</span>
-							<span>Xbulon Organics</span>
+							<span>NetForce Organics</span>
 						</li>
 						<!-- /BREADCRUMBS ITEM -->
 					</ul>
@@ -227,11 +227,11 @@
         <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="heading">Xbulon Organics</h2>
+            <h2 class="heading">NetForce Organics</h2>
             <p>We are focused on producing the best of organic products using raw materials sourced from nature to nurture your health and improve everyday living.</p>
             <p>We take delight in providing a quick and easy access to both curative and preventive health products to boost your overall health and well-being.</p>
-            <p>Our products that is the Xbulon Organics products are powerful and effective, without toxins, chemicals or preservatives. They are made using nature's best resources for a healthier you.</p>
-            <h3>Some of Xbulon Organic Tea includes:</h3>
+            <p>Our products that is the NetForce Organics products are powerful and effective, without toxins, chemicals or preservatives. They are made using nature's best resources for a healthier you.</p>
+            <h3>Some of NetForce Organic Tea includes:</h3>
             <?php
 					echo form_open('', '');?>
 					<div class="form-group">
@@ -251,7 +251,7 @@
 						<div class="product-item-content">
 
 							<div class="img-responsive">
-								<img data-sizes="auto" src="https://xbulon.com/product_images/'.$product['product_image'].'" alt="Postrate Tea" class="lazyload img-responsive">
+								<img data-sizes="auto" src="https://NetForce.com/product_images/'.$product['product_image'].'" alt="Postrate Tea" class="lazyload img-responsive">
 
 							</div>
 
@@ -291,7 +291,7 @@ High Blood Pressure AndCholestrol Tea<br>
 Zobo - X Tea<br>
 
             </p>
-            <h3>Some of Xbulon Organic product includes:</h3>
+            <h3>Some of NetForce Organic product includes:</h3>
             <p>
             Malaria - X27<br>
 Erektile - X21<br>

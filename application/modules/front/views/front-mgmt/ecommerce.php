@@ -196,7 +196,7 @@
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">Xbulon E-Shopping</h1>
+				<h1 class="page-title text-white">NetForce E-Shopping</h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">
@@ -210,7 +210,7 @@
 						<!-- BREADCRUMBS ITEM -->
 						<li class="breadcrumbs-item trail-end">
 							<span class="crumina-icon">»</span>
-							<span>Xbulon E-Commerce</span>
+							<span>NetForce E-Commerce</span>
 						</li>
 						<!-- /BREADCRUMBS ITEM -->
 					</ul>
@@ -228,9 +228,9 @@
 
         <div class="col-md-12">
 
-            <h2 class="heading">Xbulon E-Shopping</h2>
+            <h2 class="heading">NetForce E-Shopping</h2>
             <p>
-                Xbulon online stores is where you can get every of your necessities just by a click and get the goods delivered to you on time.
+                NetForce online stores is where you can get every of your necessities just by a click and get the goods delivered to you on time.
             </p>
             <p>Also we give the ample opportunity to advertise and sell your goods taking the advantage of our wide range of network/ customers base from all over the world, all system enjoys a huge amount of traffic from visitor/buyers from all over the continents.</p>
             <p>Be confident that whatever you purchase from the admin here is proven and you’re sure of the refund of your money if your request/choice is wrongly delievered.</p>
@@ -252,7 +252,7 @@
 						<div class="product-item-content">
 
 							<div class="img-responsive">
-								<img data-sizes="auto" src="https://xbulon.com/product_images/'.$product['product_image'].'" alt="Postrate Tea" class="lazyload img-responsive">
+								<img data-sizes="auto" src="https://NetForce.com/product_images/'.$product['product_image'].'" alt="Postrate Tea" class="lazyload img-responsive">
 
 							</div>
 

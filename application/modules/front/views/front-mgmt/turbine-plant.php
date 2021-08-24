@@ -236,7 +236,7 @@ a.packeg-diamond {
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">Xbulon Gas & Steam Turbine </h1>
+				<h1 class="page-title text-white">NetForce Gas & Steam Turbine </h1>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
 				<div class="crumina-breadcrumbs">
@@ -250,7 +250,7 @@ a.packeg-diamond {
 						<!-- BREADCRUMBS ITEM -->
 						<li class="breadcrumbs-item trail-end">
 							<span class="crumina-icon">»</span>
-							<span>Xbulon Gas & Steam Turbine </span>
+							<span>NetForce Gas & Steam Turbine </span>
 						</li>
 						<!-- /BREADCRUMBS ITEM -->
 					</ul>

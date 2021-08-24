@@ -227,7 +227,7 @@
     <div class="row">
         <div class="col-md-12">
             <h2 class="heading">Project Development management</h2>
-            <p>Xbulon Project and Development Management is a platform from where you can confidently execute all your ideal projects irrespective of your location and where you want your project to be sited,</p>
+            <p>NetForce Project and Development Management is a platform from where you can confidently execute all your ideal projects irrespective of your location and where you want your project to be sited,</p>
             <p>In this platform we give you real value for your money and deliver on time, eliminating waste and managing your budget effectively.</p>
             <p>We also manage your capital resources to give you a good return on investment.</p>
         </div>

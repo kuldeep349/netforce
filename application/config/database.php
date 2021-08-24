@@ -52,8 +52,8 @@ $db['default']['hostname'] = 'localhost';
 /////////////////////////////////////////
 if($_SERVER['HTTP_HOST']=="localhost")
 {
-	$db['default']['username'] = 'sonu';
-	$db['default']['password'] = 'password';
+	$db['default']['username'] = 'kush';
+	$db['default']['password'] = '123456';
 	$db['default']['database'] = 'xbulon';
 }
 else 

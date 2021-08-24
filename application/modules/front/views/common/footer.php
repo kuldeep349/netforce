@@ -354,7 +354,7 @@ $mar = marqueeText();
 
                 <div class="content">
 
-                    <a href="mailto:info@xbulon.com" class="title c-white">info@xbulon.com</a>
+                    <a href="mailto:info@NetForce.com" class="title c-white">info@NetForce.com</a>
 
                     <p class="sub-title">online support</p>
 
@@ -470,7 +470,7 @@ $mar = marqueeText();
 
     <div class="sub-footer">
 
-        ©️Xbulon Network™️. All Right Reserved. 2020
+        ©️NetForce Network™️. All Right Reserved. 2020
 
 
     </div>

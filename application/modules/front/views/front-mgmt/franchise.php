@@ -236,7 +236,7 @@ a.packeg-diamond {
 			<!-- STUNNING HEADER CONTENT -->
 			<div class="stunning-header-content align-center">
 				<!-- PAGE TITLE -->
-				<h1 class="page-title text-white">XBULON Franchise coming soon</h1>
+				<h1 class="page-title text-white">NetForce Franchise coming soon</h1>
 				<h3 class="page-title text-white"></h3>
 				<!-- /PAGE TITLE -->
 				<!-- BREADCRUMBS -->
@@ -251,7 +251,7 @@ a.packeg-diamond {
 						<!-- BREADCRUMBS ITEM -->
 						<li class="breadcrumbs-item trail-end">
 							<span class="crumina-icon">»</span>
-							<span>XBULON Franchise</span>
+							<span>NetForce Franchise</span>
 						</li>
 						<!-- /BREADCRUMBS ITEM -->
 					</ul>

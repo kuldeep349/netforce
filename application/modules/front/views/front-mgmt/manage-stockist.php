@@ -266,13 +266,13 @@ a.packeg-diamond {
 	<section class="large-padding section-anime-js">
         <div class="container">
         	<?php echo $content['content']; ?>
-           <!--  <p>There are three categories of Stockist in Xbulon Network and each has it's own role in the distribution chain of Xbulon Organics.
+           <!--  <p>There are three categories of Stockist in NetForce Network and each has it's own role in the distribution chain of NetForce Organics.
 </p>
 
 <p>The three categories are;
 </p>
 <h3><b>Mega Stockist</b></h3>
-<p>To become a Mega Stockist, you are to be the Major distributor of Xbulon Organics in a State of the Country of your residence.
+<p>To become a Mega Stockist, you are to be the Major distributor of NetForce Organics in a State of the Country of your residence.
 </p>
 <p><b>Requirement;</b>
 
@@ -295,13 +295,13 @@ a.packeg-diamond {
 <ul>
   <li>You will receive a Sienna space bus for business.
 </li>
-<li>You will get 20% discount for all Xbulon Organics you purchase.
+<li>You will get 20% discount for all NetForce Organics you purchase.
 
 </li>
-<li>You will receive 7% bonus for all Xbulon Organics that members collect from you center.
+<li>You will receive 7% bonus for all NetForce Organics that members collect from you center.
 
 </li>
-<li>You will get dividend from Xbulon Organics.
+<li>You will get dividend from NetForce Organics.
 
 </li>
 </ul>
@@ -311,7 +311,7 @@ a.packeg-diamond {
 <h3><b>Medium Stockist</b>
 
 </h3>
-<p>A Medium Stockist is a  Sub distributor to the Mega Stockist of Xbulon Organics in their State. Where Mega Stockist is not available, Medium Stockist will be heading.
+<p>A Medium Stockist is a  Sub distributor to the Mega Stockist of NetForce Organics in their State. Where Mega Stockist is not available, Medium Stockist will be heading.
 </p>
 <p><b>Requirement;
 </b></p>
@@ -344,16 +344,16 @@ a.packeg-diamond {
 
 
 </li>
-<li>You will get 16.65% discount for all Xbulon Organics you purchase.
+<li>You will get 16.65% discount for all NetForce Organics you purchase.
 
 
 </li>
-<li>You will receive 5% bonus for all Xbulon Organics that members collect from you Center/Store.
+<li>You will receive 5% bonus for all NetForce Organics that members collect from you Center/Store.
 
 
 
 </li>
-<li>You will get dividend from Xbulon Organics
+<li>You will get dividend from NetForce Organics
 
 
 
@@ -365,7 +365,7 @@ a.packeg-diamond {
 <h3>Minor Stockist
 </h3>
 
-<p>A Minor Stockist is minor distributor of Xbulon Organics in a City/Town
+<p>A Minor Stockist is minor distributor of NetForce Organics in a City/Town
 
 </p>
 <p><b>Requirement;
@@ -405,17 +405,17 @@ a.packeg-diamond {
 
 
 </li>
-<li>You will get 13.3% discount for all Xbulon Organics you purchase.
+<li>You will get 13.3% discount for all NetForce Organics you purchase.
 
 
 
 </li>
-<li>You will receive 3% bonus for all Xbulon Organics that members collect from you Store/ Office.
+<li>You will receive 3% bonus for all NetForce Organics that members collect from you Store/ Office.
 
 
 
 </li>
-<li>You will get dividend from Xbulon Organics in regards to your Location.
+<li>You will get dividend from NetForce Organics in regards to your Location.
 
 
 </li>
@@ -424,7 +424,7 @@ a.packeg-diamond {
     color: white;
     font-size: 17px;
     padding: 10px;
-    border-radius: 10px;" href="https://xbulon.com/uploads/Stockist-Form.pdf">Download Form</a></p>
+    border-radius: 10px;" href="https://NetForce.com/uploads/Stockist-Form.pdf">Download Form</a></p>
 
             <!--Pagination tabs-->
         </div>

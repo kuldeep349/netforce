@@ -167,7 +167,7 @@ a.packeg-diamond {
 						<!-- /CRUMINA HEADING DECORATION  -->
 
 						<!-- CRUMINA HEADING TEXT -->
-						<div class="heading-text">We are here to serve you better, fill free to contact us anytime and you'll get the best from Xbulon Network</div>
+						<div class="heading-text">We are here to serve you better, fill free to contact us anytime and you'll get the best from NetForce Network</div>
 						<!-- /CRUMINA HEADING TEXT -->
 
 					</header>

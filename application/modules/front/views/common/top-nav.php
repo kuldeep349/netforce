@@ -4,7 +4,7 @@
         <div class="container">
             <div class="top-bar-content">
                 <div class="top-bar-item">8 800 567.890.11</div>
-                <div class="top-bar-item"><a href="#">info@xbulon.com</a></div>
+                <div class="top-bar-item"><a href="#">info@NetForce.com</a></div>
                 <div class="top-bar-item"><span>Mon. - Sat.</span> 07:00 - 21:00</div>
                 <div class="top-bar-item follow_us">
                     <span>Follow us:</span>
@@ -551,7 +551,7 @@
 
     <div class="user-menu" style="display:none">
 
-        <a href="https://xbulon.com/user/auth/" class="user-menu-content">
+        <a href="https://NetForce.com/user/auth/" class="user-menu-content">
 
             <span></span>
 

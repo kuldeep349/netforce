@@ -24,7 +24,7 @@
 */
 if($_SERVER['HTTP_HOST']=="localhost")
 {
-    $config['base_url'] = 'http://localhost/kuldeep/xbulon/';
+    $config['base_url'] = 'http://localhost/Sites/netforce/';
 }
 else 
 {

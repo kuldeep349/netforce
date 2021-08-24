@@ -81,7 +81,7 @@
                                                                 <div id="BankDetails" style="display:block;">
                                                                     <h4>Bank Details</h4>
                                                                     <p>
-                                                                        Account Name: Xbulon Network<br>
+                                                                        Account Name: NetForce Network<br>
                                                                         Bank: Zenith Bank<br>
                                                                         Account Number: 1017541942<br>
                                                                     </p>
