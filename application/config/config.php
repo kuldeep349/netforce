@@ -24,13 +24,13 @@
 */
 if($_SERVER['HTTP_HOST']=="localhost")
 {
-    $config['base_url'] = 'http://localhost/kuldeep/xbulon/';
+    $config['base_url'] = 'http://localhost/Sites/xbulon/';
 }
 else 
 {
-    $config['base_url'] ='https://'.$_SERVER['HTTP_HOST'].'/';
-    //$config['base_url'] ='http://'.$_SERVER['HTTP_HOST'];
-}
+    // $config['base_url'] ='https://'.$_SERVER['HTTP_HOST'].'/';
+    $config['base_url'] ='http://'.$_SERVER['HTTP_HOST'];
+} 
 
 /*
 |--------------------------------------------------------------------------

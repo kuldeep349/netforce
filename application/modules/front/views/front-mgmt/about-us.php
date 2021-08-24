@@ -496,11 +496,11 @@ h5 {
 
         <div class="col-md-12">
           <div class="aboutusheading">
-            <h3 class="heading">About Xbulon </h3>
+            <h3 class="heading">About Netforce </h3>
 
             <p>
 
-                <b>Xbulon</b> Health & Wealth Community is a social community where people from all parts of the globe meet, with the sole purpose of transacting and acquiring wealth while attaining healthy living.
+                <b>Netforce</b> Health & Wealth Community is a social community where people from all parts of the globe meet, with the sole purpose of transacting and acquiring wealth while attaining healthy living.
 
             </p>
 
@@ -518,7 +518,7 @@ h5 {
 
                 <li>To ensure healthy community and quality life style by providing multiple streams of income through the various packages we have in our business plan.</li>
 
-                <li>	To transform and change the financial life of everyone in our community, which is one of the primary pursuit of Xbulon.</li>
+                <li>	To transform and change the financial life of everyone in our community, which is one of the primary pursuit of Netforce.</li>
 
                 <li>To live in sound health. Our products are additive and preservative free, it’s purely Organic in nature and best for healthy living</li>
 

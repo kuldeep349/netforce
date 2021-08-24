@@ -52,15 +52,15 @@ $db['default']['hostname'] = 'localhost';
 /////////////////////////////////////////
 if($_SERVER['HTTP_HOST']=="localhost")
 {
-	$db['default']['username'] = 'sonu';
-	$db['default']['password'] = 'password';
+	$db['default']['username'] = 'kush';
+	$db['default']['password'] = '123456';
 	$db['default']['database'] = 'xbulon';
 }
 else 
 {
-	$db['default']['username'] = 'xbulvxgr_tinna';
-	$db['default']['password'] = '4IybPx_9M?Y7';
-	$db['default']['database'] = 'xbulvxgr_tinna';
+	$db['default']['username'] = 'admin_xbulon'; 
+	$db['default']['password'] = 'hgEaUuNwJs';
+	$db['default']['database'] = 'admin_xbulon';
 }
 //////////////////////////////////////////
 $db['default']['dbdriver'] = 'mysqli';
