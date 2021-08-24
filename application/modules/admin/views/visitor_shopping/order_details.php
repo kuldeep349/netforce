@@ -59,8 +59,8 @@ $admin=getProfileInfo();
                         <br>
                         Plot 3, Adefolu Street, <br>Ikeja Lagos Nigeria.<BR>
                         Contact No: +234 705 353 0409<br>
-                        Email: xbulonservices@gmail.com<br>
-                        Website: www://xbulon.com<br>
+                        Email: NetForceservices@gmail.com<br>
+                        Website: www://NetForce.com<br>
 
                     </address>
                     </div>

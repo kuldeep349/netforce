@@ -10,7 +10,7 @@
       <div class="sidebar-user">
          <div class="category-content">
             <div class="media">
-               <a href="#" class="media-left"><img src="<?php echo base_url();?>images/<?php echo $admin->image;?>" class="img-circle img-sm" alt=""></a>
+               <a href="#" class="media-left"><img src="<?php echo base_url('front_assets/images/logo.png');?>" class="img-circle img-sm" alt=""></a>
                <div class="media-body">
                   <span class="media-heading text-semibold"><?php echo $admin->username;?></span>
                   <div class="text-size-mini text-muted">
