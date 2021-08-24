@@ -58,9 +58,9 @@ if($_SERVER['HTTP_HOST']=="localhost")
 }
 else 
 {
-	$db['default']['username'] = 'xbulvxgr_tinna';
-	$db['default']['password'] = '4IybPx_9M?Y7';
-	$db['default']['database'] = 'xbulvxgr_tinna';
+	$db['default']['username'] = 'admin_xbulon';
+	$db['default']['password'] = 'hgEaUuNwJs';
+	$db['default']['database'] = 'admin_xbulon';
 }
 //////////////////////////////////////////
 $db['default']['dbdriver'] = 'mysqli';
